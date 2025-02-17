@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Automation Test Suite">
+    <test name="agileDot Test Suite">
+        <classes>
+         <class name="tests.MessageSubmitForm"></class>
+            <class name="tests.Services"></class>
+            <class name="tests.QuickLinks"></class>
+            <class name="tests.NavBar"></class>
+            <class name="tests.Contact"></class>
+        </classes>
+    </test>
+</suite>
